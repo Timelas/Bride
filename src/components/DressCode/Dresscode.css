@@ -1,0 +1,113 @@
+.dresscode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 0 100px;
+  background-color: #be489a;
+}
+
+.dresscode__header {
+  height: 200px;
+  object-fit: contain;
+  padding: 150px 0 0;
+}
+
+.dresscode__description {
+  font-size: 26px;
+  line-height: 40px;
+  width: 40%;
+  margin: 60px 0 0;
+  color: white;
+}
+
+.dresscode__colors {
+  margin: 50px 0;
+  position: relative;
+}
+
+.dresscode__image {
+  object-fit: cover;
+  object-position: top;
+  width: 20vw;
+  height: 700px;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .dresscode__description {
+    font-size: 28px;
+    width: 50%;
+    margin: 70px 0 0;
+  }
+
+  .dresscode__header {
+    height: 150px;
+    padding: 130px 0 0;
+  }
+
+  .dresscode__image {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .dresscode {
+    padding: 80px 0;
+    height: 100%;
+  }
+
+  .dresscode__header {
+    height: 120px;
+    padding: 0;
+  }
+
+  .dresscode__description {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px 0 0;
+    width: 60%;
+  }
+
+  .dresscode__image {
+    height: 300px;
+    margin: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dresscode__image {
+    width: 25vw;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dresscode {
+    padding: 60px 0 70px;
+  }
+
+  .dresscode__header {
+    height: 100px;
+  }
+
+  .dresscode__description {
+    font-size: 18px;
+    line-height: 24px;
+    width: 80%;
+    margin: 30px 0 0;
+  }
+
+  .dresscode__image {
+    height: 250px;
+    margin: 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dresscode__image {
+    height: 230px;
+    margin: 30px 0 0;
+    width: 33.3vw;
+  }
+}

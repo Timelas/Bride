@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Valisca";
+  src: url(Valisca.ttf) format('ttf'),
+       url(Valisca.woff) format('woff'),
+       url(Valisca.woff2) format('woff');
+       font-style: normal;
+       font-weight: 200;
+}
+
+@font-face {
+  font-family: "Univrsty";
+  src: url(univrstyromanbtrusbyme.ttf) format('ttf'),
+       url(univrstyromanbtrusbyme.woff) format('woff'),
+       url(univrstyromanbtrusbyme.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}

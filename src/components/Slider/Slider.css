@@ -1,0 +1,88 @@
+.slider__btn-pre {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.slider__btn-pre:active {
+    transform: scale(0.9) translate(5px, 5px) rotate(180deg);
+}
+
+.slider__btn-next {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.slider__btn-next:active {
+    transform: scale(0.9) translate(5px, 5px);
+}
+
+@media screen and (max-width: 1700px) {
+    .slider__btn-pre {
+        top: 170px;
+    }
+    
+    .slider__btn-next {
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .slider__btn-pre {
+        width: 90px;
+        height: 90px;
+        top: 140px;
+    }
+
+    .slider__btn-next {
+        width: 90px;
+        height: 90px;
+        top: 140px;
+    }
+}
+
+@media screen and (max-width: 10240px) {
+    .slider__btn-pre {
+        width: 80px;
+        height: 80px;
+    }
+
+    .slider__btn-next {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .slider__btn-pre {
+        width: 60px;
+        height: 60px;
+        top: 130px;
+    }
+
+    .slider__btn-next {
+        width: 60px;
+        height: 60px;
+        top: 130px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .slider__btn-pre {
+        top: 120px;
+        left: 10px;
+    }
+
+    .slider__btn-next {
+        top: 120px;
+        right: 10px;
+    }
+}
