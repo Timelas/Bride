@@ -57,7 +57,7 @@ function App() {
         <Details />
         {/* <Dresscode /> */}
         <Countdown
-          date={"2023-10-14T17:30:00+00:00"}
+          date={"2023-10-14T14:30:00+00:00"}
           renderer={renderer}/>
       </div>
     </div>
