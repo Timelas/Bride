@@ -35,7 +35,7 @@
   line-height: 37px;
   margin: 50px 0 0;
   width: 100%;
-  color: #be489a;
+  color: white;
 }
 
 .question__text-span {
@@ -80,7 +80,7 @@
 
 .question__label-input {
   margin: 0 0 20px 0;
-  color: #be489a;
+  color: white;
   font-family: 'Valisca', "Arial", sans-serif;
 }
 
@@ -99,7 +99,7 @@
   width: 550px;
   height: 55px;
   border-radius: 3.5px;
-  border: .5px solid #be489a;
+  border: .5px solid white;
   font-size: 30px;
   padding: 5px;
   box-sizing: border-box;
@@ -112,7 +112,7 @@
 .question__button {
   width: 300px;
   height: 65px;
-  background-color: #be489a;
+  background-color: rgb(105, 8, 91);
   font-size: 28px;
   border: none;
   align-self: center;
@@ -312,7 +312,7 @@
 
 @media screen and (max-width: 800px) {
   .question {
-    padding: 60px 0;
+    padding: 20px 0;
   }
 
   .question__bloks {

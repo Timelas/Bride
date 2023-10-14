@@ -4,7 +4,6 @@ import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
 import Dresscode from "../DressCode/Dresscode";
-import Details from "../Details/Details";
 import Timer from "../Timer/Timer";
 import './App.css';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
@@ -40,7 +39,7 @@ function App() {
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-      return <span>Этот день настал!</span>;
+      return <Dresscode />;
     } else {
       return <Timer
       days={days}
@@ -54,10 +53,9 @@ function App() {
     <div className="App">
       <div className="App__main">
         <Header />
-        <Details />
-        {/* <Dresscode /> */}
+        {/* <Details /> */}
         <Countdown
-          date={"2023-10-14T14:30:00+00:00"}
+          date={"2023-10-14T13:50:00+00:00"}
           renderer={renderer}/>
       </div>
     </div>

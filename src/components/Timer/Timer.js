@@ -1,4 +1,5 @@
 import React from "react";
+import Details from "../Details/Details";
 import "./Timer.css";
 
 function Timer ( props ) {
@@ -46,6 +47,8 @@ function Timer ( props ) {
   }
 
   return (
+    <div>
+      <Details />
     <section className="timer">
       <div className="timer__block">
         <p className="timer__title">следующее задание откроется через:</p>
@@ -69,6 +72,7 @@ function Timer ( props ) {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 
